@@ -26,17 +26,17 @@ with two_entries:
 
     with col1:
         st.markdown("Peso w<sub>0</sub>", unsafe_allow_html=True)
-        w0 = st.slider("w01", 0.0, 5.0, 0.5, key="w01", label_visibility="hidden")
+        w0 = st.slider("w01", 0.0, 5.0, 0.5, key="w01", label_visibility="collapsed")
 
         st.markdown("Peso x<sub>0</sub>", unsafe_allow_html=True)
-        x0 = st.number_input("Entrada x0", key="x01", label_visibility="hidden")
+        x0 = st.number_input("Entrada x0", key="x01", label_visibility="collapsed")
 
     with col2:
         st.markdown("Peso w<sub>1</sub>", unsafe_allow_html=True)
-        w1 = st.slider("w01", 0.0, 5.0, 0.5, key="w11", label_visibility="hidden")
+        w1 = st.slider("w01", 0.0, 5.0, 0.5, key="w11", label_visibility="collapsed")
 
         st.markdown("Peso x<sub>1</sub>", unsafe_allow_html=True)
-        x1 = st.number_input("Entrada x1", key="x11", label_visibility="hidden")
+        x1 = st.number_input("Entrada x1", key="x11", label_visibility="collapsed")
 
     y = x0 * w0 + x1 * w1
 
@@ -47,24 +47,24 @@ with three_entries:
 
     with col3:
         st.markdown("Peso w<sub>0</sub>", unsafe_allow_html=True)
-        w0 = st.slider("w02", 0.0, 5.0, 0.5, key="w02", label_visibility="hidden")
+        w0 = st.slider("w02", 0.0, 5.0, 0.5, key="w02", label_visibility="collapsed")
 
         st.markdown("Peso x<sub>0</sub>", unsafe_allow_html=True)
-        x0 = st.number_input("Entrada x0", key="x02", label_visibility="hidden")
+        x0 = st.number_input("Entrada x0", key="x02", label_visibility="collapsed")
 
     with col4:
         st.markdown("Peso w<sub>1</sub>", unsafe_allow_html=True)
-        w1 = st.slider("w02", 0.0, 5.0, 0.5, key="w12", label_visibility="hidden")
+        w1 = st.slider("w02", 0.0, 5.0, 0.5, key="w12", label_visibility="collapsed")
 
         st.markdown("Peso x<sub>1</sub>", unsafe_allow_html=True)
-        x1 = st.number_input("Entrada x1", key="x12", label_visibility="hidden")
+        x1 = st.number_input("Entrada x1", key="x12", label_visibility="collapsed")
 
     with col5:
         st.markdown("Peso w<sub>2</sub>", unsafe_allow_html=True)
-        w2 = st.slider("w2", 0.0, 5.0, 0.5, key="w2", label_visibility="hidden")
+        w2 = st.slider("w2", 0.0, 5.0, 0.5, key="w2", label_visibility="collapsed")
 
         st.markdown("Peso x<sub>1</sub>", unsafe_allow_html=True)
-        x2 = st.number_input("Entrada x2", key="x2", label_visibility="hidden")
+        x2 = st.number_input("Entrada x2", key="x2", label_visibility="collapsed")
 
     b = st.number_input("Sesgo")
 
